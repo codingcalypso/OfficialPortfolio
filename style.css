@@ -2,6 +2,12 @@
   --main-color: blueviolet;
   --secondary-color: #f9f7fe;
 }
+h1 {
+  margin: 0 auto;
+}
+.logo {
+  max-height: 40px;
+}
 nav {
   padding: 15px 0;
 }
