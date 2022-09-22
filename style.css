@@ -11,6 +11,9 @@ nav ul {
 }
 nav li {
   display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 15px;
 }
 nav a {
   text-decoration: none;
