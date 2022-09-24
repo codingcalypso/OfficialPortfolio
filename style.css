@@ -10,7 +10,7 @@ body {
 }
 h1 {
   font-family: var(--welcome-font-family);
-  font-size: 64px;
+  font-size: 96px;
   text-align: center;
 }
 .logo {
