@@ -1,12 +1,23 @@
 :root {
   --main-color: blueviolet;
   --secondary-color: #f9f7fe;
+  --welcome-font-family: "Sacramento", cursive;
+  --default-font-family: "Montserrat", sans-serif;
+}
+body {
+  background-color: lightgrey;
+  font-family: var(--default-font-family);
 }
 h1 {
-  margin: 0 auto;
+  font-family: var(--welcome-font-family);
+  font-size: 64px;
+  text-align: center;
 }
 .logo {
   max-height: 40px;
+}
+.main-content {
+  text-align: center;
 }
 nav {
   padding: 15px 0;
