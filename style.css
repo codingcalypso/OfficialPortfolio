@@ -1,25 +1,35 @@
 :root {
   --main-color: blueviolet;
   --secondary-color: gold;
-  --welcome-font-family: "Sacramento", cursive;
+  --welcome-font-family: "Titan One", cursive;
   --default-font-family: "Montserrat", sans-serif;
 }
 body {
-  background-color: #e9e8e8;
+  background-color: #e4e4e4;
+  background-image: url(images/waves-haikei.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
   font-family: var(--default-font-family);
 }
 h1 {
   font-family: var(--welcome-font-family);
-  font-size: 72px;
+  text-shadow: 0px 0px 7px rgba(3, 3, 3, 0.5);
+  color: #e4e4e4;
+  font-size: 96px;
+  margin: 100px;
+}
+.btn-branding {
+  background-color: #6e4ba2;
+  color: #e4e4e4;
 }
 .intro {
-  font-size: 24px;
+  font-size: 36px;
 }
 .logo {
   max-height: 40px;
 }
 .main-content {
-  margin-top: 120px;
+  margin-top: 10px;
   text-align: center;
 }
 nav {
@@ -37,7 +47,7 @@ nav li {
 }
 nav a {
   text-decoration: none;
-  color: blueviolet;
+  color: #e4e4e4;
   transition: all 100ms ease-in-out;
 }
 nav a:hover,
