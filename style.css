@@ -1,22 +1,26 @@
 :root {
   --main-color: blueviolet;
   --secondary-color: gold;
-  --welcome-font-family: "Titan One", cursive;
+  --secondary-font-family: "Poppins", serif;
   --default-font-family: "Montserrat", sans-serif;
 }
 body {
-  background-color: #e4e4e4;
+  background-color: #fffffe;
   background-image: url(images/waves-haikei.svg);
   background-repeat: no-repeat;
   background-size: cover;
   font-family: var(--default-font-family);
 }
 h1 {
-  font-family: var(--welcome-font-family);
+  font-family: var(--secondary-font-family);
   text-shadow: 0px 0px 7px rgba(3, 3, 3, 0.5);
-  color: #e4e4e4;
+  color: #e2e1e1;
   font-size: 96px;
-  margin: 100px;
+  margin: 75px;
+}
+h2 {
+  font-family: var(--secondary-font-family);
+  font-size: 48px;
 }
 .btn-branding {
   background-color: #6e4ba2;
