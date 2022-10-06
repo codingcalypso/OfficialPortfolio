@@ -16,7 +16,7 @@ h1 {
   text-shadow: 0px 0px 7px rgba(3, 3, 3, 0.5);
   color: #e2e1e1;
   font-size: 96px;
-  margin: 75px;
+  margin: 100px;
 }
 h2 {
   font-family: var(--secondary-font-family);
@@ -35,6 +35,9 @@ h2 {
 .main-content {
   margin-top: 10px;
   text-align: center;
+}
+.project-description {
+  padding: 120px 60px;
 }
 nav {
   padding: 15px 0;
