@@ -6,7 +6,7 @@
 }
 body {
   background-color: #fffffe;
-  background-image: url(images/purple-waves-haikei.svg);
+  background-image: url(/images/purple-waves-haikei.svg);
   background-repeat: no-repeat;
   background-size: cover;
   font-family: var(--default-font-family);
@@ -28,8 +28,11 @@ h3 {
   margin: 150px;
 }
 .btn-branding {
-  background-color: #6e4ba2;
-  color: #e4e4e4;
+  background-color: #846EA5;
+  color: #fffffe;
+}
+.card-deck {
+  display: inline-block;
 }
 .intro {
   font-size: 36px;
@@ -47,6 +50,7 @@ h3 {
 .project-list {
   margin: 50px;
 }
+
 nav {
   padding: 15px 0;
 }
