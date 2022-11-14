@@ -16,91 +16,62 @@
       integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
       crossorigin="anonymous"
     />
+    <script
+      src="https://kit.fontawesome.com/883176ae3c.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Portfolio for Cristal Haley</title>
     <link rel="stylesheet" href="src/style.css" />
   </head>
   <body>
+    <nav class="d-flex justify-content-between flex-row-reverse">
+      <ul>
+        <li class="active">
+          <a href="/" title="Homepage"> Home</a>
+        </li>
+        <li>
+          <a href="/aboutme.html" title="About Cristal"> About Me</a>
+        </li>
+        <li>
+          <a href="/mywork.html" title="Cristal's work"> My Work</a>
+        </li>
+        <li>
+          <a href="/contactme.html" title="Cristal's contact page">
+            Contact Me</a
+          >
+        </li>
+      </ul>
+    </nav>
     <div class="container">
-      <nav class="navbar navbar-expand-lg d-flex flex-row-reverse">
-        <ul>
-          <li class="active">
-            <a href="/" title="Homepage">Home</a>
-          </li>
-          <li>
-            <a href="/aboutme.html" title="About Cristal page">About Me</a>
-          </li>
-          <li>
-            <a href="/mywork.html" title="My Work">My Work</a>
-          </li>
-          <li>
-            <a href="/contactme.html" title="Cristal's contact page"
-              >Contact Me</a
-            >
-          </li>
-        </ul>
-      </nav>
-    </div>
-    <div class="main-content">
-      <h1>Hi, I'm Cristal!</h1>
-      <h2>A front-end developer based in the US</h2>
-      <div>
-        <a
-          href="/contactme.html"
-          class="btn btn-branding"
-          title="Contact Cristal"
-          >Contact Me</a
-        >
+      <div class="main-content">
+        <h1>Hi, I'm Cristal!</h1>
+        <h2>A front-end developer based in the US</h2>
       </div>
-    </div>
-    <h3>Here are some of my projects:</h3>
-    <div class="card-deck">
-      <div class="card">
-        <img
-          src="images/WeatherApp.png"
-          alt="Weather App"
-          class="rounded card-img-top"
-          height="250px"
-        />
-        <div class="card-body">
-          <h5 class="card-title">Basic Weather App</h5>
-          <p class="card-text">
-            This was created using basic HTML, CSS, and Bootstrap.
-          </p>
-          <a href="#" class="btn btn-primary">View Project</a>
+      <h3>🚧 <em>Projects Coming Soon...</em> 🚧</h3>
+      <footer>
+        <hr />
+        <div class="social-links d-flex justify-content-center">
+          <a
+            href="mailto:dev.calypsocodes@hotmail.com"
+            target="_blank"
+            title="Email"
+            class="social-icon mb-3"
+            ><i class="fa-regular fa-envelope"></i
+          ></a>
+          <a
+            href="https://github.com/codingcalypso"
+            target="_blank"
+            title="GitHub Profile"
+            class="social-icon mb-3"
+            ><i class="fa-brands fa-github"></i
+          ></a>
         </div>
-      </div>
-      <div class="card">
-        <div class="card-body">
-          <img
-            src="images/ReactWeatherApp.png"
-            alt="Weather App"
-            class="rounded card-img-top"
-            height="250px"
-          />
-          <h5 class="card-title">React Weather App</h5>
-          <p class="card-text">
-            This was created using basic HTML, CSS, and Bootstrap.
-          </p>
-          <a href="#" class="btn btn-primary">View Project</a>
-        </div>
-      </div>
-      <div class="card">
-        <div class="card-body">
-          <img
-            src="images/DictionaryApp.png"
-            alt="Weather App"
-            class="rounded card-img-top"
-            height="250px"
-          />
-          <h5 class="card-title">Dictionary App</h5>
-          <p class="card-text">
-            This was created using basic HTML, CSS, and Bootstrap.
-          </p>
-          <a href="#" class="btn btn-primary">View Project</a>
-        </div>
-      </div>
+        <p class="text-center mb-2 text-muted">
+          <small>Coding by Cristal | 2022</small>
+        </p>
+        <hr />
+      </footer>
+      <script src="src/index.js"></script>
     </div>
-
-    <script src="src/index.js"></script>
   </body>
 </html>

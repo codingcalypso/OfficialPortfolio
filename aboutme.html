@@ -16,29 +16,96 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&family=Sacramento&family=Playfair+Display:wght@700&family=Poppins:wght@500;700&display=swap"
       rel="stylesheet"
     />
+    <script
+      src="https://kit.fontawesome.com/883176ae3c.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Portfolio for Cristal Haley</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="src/style.css" />
   </head>
   <body>
+    <nav class="d-flex justify-content-between flex-row-reverse">
+      <ul>
+        <li>
+          <a href="/" title="Homepage"> Home</a>
+        </li>
+        <li class="active">
+          <a href="/aboutme.html" title="About Cristal"> About Me</a>
+        </li>
+        <li>
+          <a href="/mywork.html" title="Cristal's work"> My Work</a>
+        </li>
+        <li>
+          <a href="/contactme.html" title="Cristal's contact page">
+            Contact Me</a
+          >
+        </li>
+      </ul>
+    </nav>
     <div class="container">
-      <nav class="navbar navbar-expand-lg d-flex flex-row-reverse">
-        <ul>
-          <li>
-            <a href="/" title="Homepage">Home</a>
-          </li>
-          <li class="active">
-            <a href="/aboutme.html" title="About Cristal page">About Me</a>
-          </li>
-          <li>
-            <a href="/mywork.html" title="My Work">My Work</a>
-          </li>
-          <li>
-            <a href="/contactme.html" title="Cristal's contact page"
-              >Contact Me</a
-            >
-          </li>
-        </ul>
-      </nav>
+      <div class="main-content">
+        <h1>About Me</h1>
+        <h2>Learn more about Cristal</h2>
+        <div>
+          <a
+            href="/contactme.html"
+            class="btn btn-branding"
+            title="Contact Cristal"
+            >Contact Me</a
+          >
+        </div>
+      </div>
     </div>
+    <div class="quick-info">
+      <h3 class="about-headings">Personal</h3>
+      Hi, I'm Cristal and I am based in the United States. My love for front-end
+      development began as a teenager and has only grown as the years go on.
+      <div>
+        <h3 class="about-headings">Education</h3>
+        Bachelors Degree - graduating Spring 2023
+        <br />SheCodes Graduate <br /><img
+          src="/images/shecodes_basics_badge.png"
+          class="shecodes-imgs"
+        />
+        <img src="/images/shecodes_plus_badge.png" class="shecodes-imgs" />
+        <img
+          src="/images/shecodes_responsive_badge.png"
+          class="shecodes-imgs"
+        />
+        <img src="/images/shecodes_react_badge.png" class="shecodes-imgs" />
+      </div>
+      <h3 class="about-headings">Skills Learned</h3>
+      <div class="skill-icons d-flex justify-content-between">
+        <i class="fa-brands fa-html5 html5-icon"></i>
+        <i class="fa-brands fa-css3-alt css-icon"></i>
+        <i class="fa-brands fa-square-js js-icon"></i>
+        <i class="fa-brands fa-react react-icon"></i>
+      </div>
+    </div>
+    <div class="main-info"></div>
+    <div class="tools-utilized"></div>
+    <footer>
+      <hr />
+      <div class="social-links d-flex justify-content-center">
+        <a
+          href="mailto:dev.calypsocodes@hotmail.com"
+          target="_blank"
+          title="Email"
+          class="social-icon mb-3"
+          ><i class="fa-regular fa-envelope"></i
+        ></a>
+        <a
+          href="https://github.com/codingcalypso"
+          target="_blank"
+          title="GitHub Profile"
+          class="social-icon mb-3"
+          ><i class="fa-brands fa-github"></i
+        ></a>
+      </div>
+      <p class="text-center mb-2 text-muted">
+        <small>Coding by Cristal | 2022</small>
+      </p>
+      <hr />
+    </footer>
   </body>
 </html>
