@@ -1,11 +1,11 @@
 :root {
   --main-color: #846ea5;
-  --secondary-color: gold;
-  --main-font-family: "Poppins", serif;
-  --secondary-font-family: "Times New Roman", Times, serif;
+  --secondary-color: #dbb845;
+  --main-font-family: "Poppins", sans-serif;
+  --secondary-font-family: "Sono", sans-serif;
 }
 body {
-  background-color: #e9e9e9;
+  background-color: #f4f3ec;
   background-repeat: no-repeat;
   background-size: cover;
   font-family: var(--secondary-font-family);
@@ -14,13 +14,14 @@ body {
 h1 {
   font-family: var(--main-font-family);
   text-shadow: 0px 0px 7px rgba(212, 211, 211, 0.5);
-  color: #fffffe;
-  font-size: 64px;
+  color: #303841;
+  font-size: 46px;
 }
 h2 {
   font-family: var(--secondary-font-family);
-  font-size: 36px;
+  font-size: 28px;
   margin: 50px;
+  font-weight: 100;
 }
 h3 {
   text-align: center;
@@ -29,21 +30,12 @@ h3 {
   color: black;
 }
 footer {
-  background-color: #fffffe;
-  font-family: "Times New Roman", Times, serif;
-}
-footer .social-links a {
-  margin-top: 20px;
-  color: white;
-  background-color: var(--main-color);
-  padding: 1px 6px;
-  font-size: 17px;
-  border-radius: 50%;
-  transition: all 150ms ease-in-out;
+  background-color: #fcfafa;
+  font-family: var(--secondary-font-family);
 }
 footer .social-links a:hover {
-  color: #fffffe;
-  background: var(--main-color);
+  background-color: var(--secondary-color);
+  color: var(--main-color);
 }
 nav {
   background-color: var(--main-color);
@@ -76,9 +68,6 @@ nav li.active a {
   margin: 0;
   line-height: 35px;
 }
-.bg-purple {
-  background-color: var(--main-color);
-}
 .btn-branding {
   background-color: var(--main-color);
   color: #fffffe;
@@ -97,6 +86,19 @@ nav li.active a {
 .email-link:hover {
   color: #846ea5;
 }
+.footer-quick-links {
+  margin-left: 350px;
+  margin-top: 50px;
+}
+.footer-quick-links a {
+  text-decoration: none;
+  color: #846ea5;
+  font-size: 14px;
+}
+.footer-quick-links a:hover {
+  text-decoration: none;
+  color: var(--secondary-color);
+}
 .html5-icon {
   color: #de5404;
 }
@@ -104,9 +106,9 @@ nav li.active a {
   color: #ecd501;
 }
 .main-content {
-  background-color: rgb(197, 196, 196);
-  text-align: center;
+  background-color: #eae4d1;
   padding: 100px;
+  text-align: center;
 }
 .quick-info {
   font-size: 16px;
@@ -125,6 +127,21 @@ nav li.active a {
   font-size: 30px;
   width: 150px;
 }
+.small-header {
+  font-family: var(--main-font-family);
+  letter-spacing: 1px;
+}
+.social-links {
+  float: right;
+  margin-top: -120px;
+  margin-right: 400px;
+}
 .social-icon {
-  margin: 0 0 0 25px;
+  margin-top: 20px;
+  color: white;
+  background-color: var(--main-color);
+  padding: 1px 6px;
+  font-size: 17px;
+  border-radius: 50%;
+  transition: all 150ms ease-in-out;
 }
