@@ -84,6 +84,13 @@ ul {
 .card-deck {
   display: inline-block;
 }
+.column-1 {
+  width: 50%;
+  margin-left: 130px;
+}
+.column-2 {
+  width: 30%;
+}
 .container {
   display: inline;
   padding: 0;
@@ -121,12 +128,14 @@ ul {
 .quick-info {
   font-size: 16px;
   font-family: var(--secondary-font-family);
-  margin: 55px 0 0 245px;
-  width: 500px;
   color: rgb(82, 82, 82);
 }
 .react-icon {
   color: rgb(4, 210, 210);
+}
+.row {
+  display: flex;
+  flex-direction: row;
 }
 .shecodes-imgs {
   width: 50px;
