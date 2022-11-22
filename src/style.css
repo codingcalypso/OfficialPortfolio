@@ -1,11 +1,11 @@
 :root {
   --main-color: #846ea5;
   --secondary-color: #dbb845;
-  --main-font-family: "Poppins", sans-serif;
+  --main-font-family: "Sacramento";
   --secondary-font-family: "Sono", sans-serif;
 }
 body {
-  background-color: #f4f3ec;
+  background-color: #fffdf6;
   background-repeat: no-repeat;
   background-size: cover;
   font-family: var(--secondary-font-family);
@@ -14,22 +14,21 @@ body {
 h1 {
   font-family: var(--main-font-family);
   text-shadow: 0px 0px 7px rgba(212, 211, 211, 0.5);
-  color: #303841;
-  font-size: 56px;
+  color: #030303;
+  font-size: 72px;
 }
 h2 {
   font-family: var(--secondary-font-family);
-  font-size: 28px;
-  margin: 50px;
+  font-size: 22px;
   font-weight: 100;
 }
 h3 {
   font-size: 24px;
   margin: 20px;
-  color: black;
+  color: #030303;
 }
 footer {
-  background-color: #fcfafa;
+  background-color: #eae4d1;
   font-family: var(--secondary-font-family);
 }
 footer .social-links a:hover {
@@ -64,22 +63,40 @@ ul {
   text-align: center;
 }
 .about-headings {
-  font-family: var(--main-font-family);
+  font-family: var(--secondary-font-family);
   text-align: left;
-  font-size: 24px;
+  font-size: 18px;
   font-weight: bold;
   line-height: 35px;
-  color: #303841;
-  margin: 30px 0 30px 0;
+  color: #030303;
+  margin: 30px 0 10px 0;
+  text-decoration: underline;
 }
 .about-links {
   color: #846ea5;
   text-decoration: none;
   font-weight: bold;
 }
-.btn-branding {
+.btn-contact {
   background-color: var(--main-color);
   color: #fffffe;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 20px;
+  border-radius: 1px;
+  width: 300px;
+}
+.btn-contact:hover {
+  background-color: var(--secondary-color) !important;
+}
+.btn-work-links {
+  background-color: var(--main-color);
+  color: #fffffe;
+  font-size: 14px;
+  line-height: 27px;
+  padding: 5px 10px;
+  border-radius: 1px;
+  width: 48%;
 }
 .card-deck {
   display: inline-block;
@@ -91,16 +108,34 @@ ul {
 .column-2 {
   width: 30%;
 }
+.contact-box {
+  background-color: #eae4d1;
+  padding: 30px 120px;
+  margin: 50px auto;
+  width: 85%;
+}
+.contact-box p {
+  margin: 0px;
+}
 .container {
   display: inline;
   padding: 0;
   width: 100%;
 }
-.css-icon {
-  color: rgb(0, 149, 255);
-}
 .email-link:hover {
   color: #846ea5;
+}
+.fa-bootstrap {
+  color: #7952b2;
+}
+.fa-css3-alt {
+  color: rgb(0, 149, 255);
+}
+.fa-html5 {
+  color: #de5404;
+}
+.fa-square-js {
+  color: #ecd501;
 }
 .footer-quick-links {
   margin-top: 20px;
@@ -114,16 +149,17 @@ ul {
   text-decoration: none;
   color: var(--secondary-color);
 }
-.html5-icon {
-  color: #de5404;
-}
-.js-icon {
-  color: #ecd501;
-}
 .main-content {
   background-color: #eae4d1;
   padding: 100px;
   text-align: center;
+}
+.preview-imgs {
+  width: auto;
+}
+.project-section {
+  width: 75%;
+  margin: 0 auto;
 }
 .quick-info {
   font-size: 16px;
@@ -150,10 +186,17 @@ ul {
 }
 .social-icon {
   margin: 0 0 0 25px;
-  color: white;
+  color: #fffffe;
   background-color: var(--main-color);
   padding: 2px 6px;
   font-size: 18px;
   border-radius: 50%;
   transition: all 150ms ease-in-out;
+}
+.work-header {
+  font-size: 32px;
+}
+.work-projects {
+  margin: 0 auto;
+  width: 90%;
 }
