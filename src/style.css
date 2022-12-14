@@ -1,26 +1,29 @@
 :root {
   --main-color: #846ea5;
-  --secondary-color: #dbb845;
-  --main-font-family: "Sacramento";
-  --secondary-font-family: "Sono", sans-serif;
+  --secondary-color: #eae4d1;
+  --main-font-family: "Yeseva One", cursive;
+  --secondary-font-family: "Poppins", sans-serif;
 }
 body {
+  background-image: url(/images/purple_tan_layered-waves-haikei.svg);
   background-color: #fffdf6;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   font-family: var(--secondary-font-family);
   line-height: 25px;
 }
 h1 {
   font-family: var(--main-font-family);
-  text-shadow: 0px 0px 7px rgba(212, 211, 211, 0.5);
+  text-shadow: 0px 0px 8px rgba(48, 48, 48, 0.5);
   color: #030303;
   font-size: 72px;
 }
 h2 {
   font-family: var(--secondary-font-family);
-  font-size: 22px;
-  font-weight: 100;
+  font-size: 18px;
+  font-weight: 300;
+  color: #030303;
+  line-height: 25px;
 }
 h3 {
   font-size: 24px;
@@ -78,13 +81,14 @@ ul {
   font-weight: bold;
 }
 .btn-contact {
-  background-color: var(--main-color);
+  background-color: #846ea5;
   color: #fffffe;
   font-size: 18px;
   line-height: 27px;
   padding: 15px 20px;
   border-radius: 1px;
-  width: 300px;
+  margin-top: 6px;
+  width: 400px;
 }
 .btn-contact:hover {
   background-color: var(--secondary-color) !important;
@@ -101,15 +105,27 @@ ul {
 .card-deck {
   display: inline-block;
 }
-.column-1 {
+.column-1-index {
+  margin-top: 100px;
+  margin-bottom: 150px;
+  width: 40%;
+  margin-left: 130px;
+  text-align: center;
+}
+.column-2-index {
+  margin-top: 100px;
+  margin-bottom: 150px;
+  width: 40%;
+}
+.column-1-aboutme {
   width: 50%;
   margin-left: 130px;
 }
-.column-2 {
+.column-2-aboutme {
   width: 30%;
 }
 .contact-box {
-  background-color: #eae4d1;
+  background-color: #d5cfde;
   padding: 30px 120px;
   margin: 50px auto;
   width: 85%;
@@ -121,6 +137,11 @@ ul {
   display: inline;
   padding: 0;
   width: 100%;
+}
+.description-title {
+  font-family: "Yeseva One", cursive;
+  font-size: 42px;
+  text-shadow: 0px 0px 8px rgba(48, 48, 48, 0.3);
 }
 .email-link:hover {
   color: #846ea5;
@@ -149,10 +170,22 @@ ul {
   text-decoration: none;
   color: var(--secondary-color);
 }
+.laptop-image {
+  font-size: 272px;
+  color: #846ea5;
+  transform: rotate(345deg);
+}
 .main-content {
-  background-color: #eae4d1;
-  padding: 100px;
+  padding: 150px;
   text-align: center;
+}
+.main-description-text {
+  margin-top: 150px;
+  margin-left: 850px;
+  margin-bottom: 150px;
+  text-align: left;
+  width: 550px;
+  text-shadow: 0px 0px 7px rgba(212, 211, 211, 1);
 }
 .preview-imgs {
   width: auto;
@@ -176,6 +209,13 @@ ul {
 .shecodes-imgs {
   width: 50px;
 }
+.signature {
+  text-align: right;
+  font-family: "Sacramento", cursive;
+  text-shadow: 0px 0px 7px rgba(212, 211, 211, 1);
+  color: #030303;
+  font-size: 56px;
+}
 .skill-icons {
   font-size: 30px;
   width: 150px;
@@ -185,10 +225,10 @@ ul {
   letter-spacing: 1px;
 }
 .social-icon {
-  margin: 0 0 0 25px;
+  margin: 0 0 0 30px;
   color: #fffffe;
   background-color: var(--main-color);
-  padding: 2px 6px;
+  padding: 5px 8px;
   font-size: 18px;
   border-radius: 50%;
   transition: all 150ms ease-in-out;
