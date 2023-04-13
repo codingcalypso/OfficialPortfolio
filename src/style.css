@@ -103,6 +103,9 @@ ul {
   border-radius: 1px;
   width: 48%;
 }
+.btn-work-links:hover {
+  background-color: var(--secondary-color) !important;
+}
 .card-deck {
   display: inline-block;
 }
