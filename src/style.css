@@ -200,6 +200,11 @@ ul {
 .preview-imgs {
   width: auto;
 }
+.preview-work {
+  width: 500px;
+  height: 250px;
+  border: #eae4d1 solid 10px;
+}
 .project-section {
   width: 75%;
   margin: 0 auto;
