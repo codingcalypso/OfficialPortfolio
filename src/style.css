@@ -74,12 +74,17 @@ nav li.active a {
   color: var(--secondary-color);
   text-decoration: underline;
 }
+p {
+  color: #030303;
+  font-size: 1rem;
+  font-weight: 300;
+}
 ul {
   list-style-type: none;
   text-align: center;
 }
 article {
-  padding:10px;
+  padding: 10px;
   margin: 10px;
   background: #efece1;
   width: 300px;
@@ -289,8 +294,9 @@ a:active {
   border-radius: 50%;
   transition: all 150ms ease-in-out;
 }
-.ux-project-content {
-  width: 90%;
+.ux-project-section {
+  margin: 0 auto;
+  width: 50%;
 }
 .work-header {
   font-size: 32px;
