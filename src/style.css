@@ -31,6 +31,17 @@ h3 {
   margin: 20px;
   color: #030303;
 }
+.float-container {
+  border: 3px solid #fff;
+  padding: 20px;
+}
+
+.float-child {
+  width: 25%;
+  float: left;
+  padding: 20px;
+  border: 2px solid red;
+}
 footer {
   background-color: #eae4d1;
   font-family: var(--secondary-font-family);
@@ -61,10 +72,20 @@ nav a {
 nav a:hover,
 nav li.active a {
   color: var(--secondary-color);
+  text-decoration: underline;
 }
 ul {
   list-style-type: none;
   text-align: center;
+}
+article {
+  padding:10px;
+  margin: 10px;
+  background: #efece1;
+  width: 300px;
+}
+section {
+  display: flex;
 }
 .about-headings {
   font-family: var(--secondary-font-family);
@@ -77,7 +98,7 @@ ul {
   text-decoration: underline;
 }
 .about-links {
-  color: #B9819F;
+  color: #b9819f;
   text-decoration: none;
   font-weight: bold;
 }
@@ -104,7 +125,7 @@ ul {
   width: 48%;
 }
 .btn-work-links:hover {
-  background-color: var(--secondary-color) !important;
+  background-color: #b9819f !important;
 }
 .card-deck {
   display: inline-block;
@@ -160,15 +181,20 @@ ul {
 }
 .fa-bootstrap {
   color: #7952b2;
+  margin-right: 15px;
 }
 .fa-css3-alt {
   color: rgb(0, 149, 255);
+  margin-right: 15px;
 }
 .fa-html5 {
   color: #de5404;
+  margin-right: 15px;
+  margin-left: 10px;
 }
 .fa-square-js {
   color: #ecd501;
+  margin-right: 15px;
 }
 .footer-quick-links {
   margin-top: 20px;
@@ -182,13 +208,14 @@ ul {
   text-decoration: none;
   color: var(--secondary-color);
 }
-.jump-to-links a, a:active{
+.jump-to-links a,
+a:active {
   color: #7952b2;
   text-decoration: none;
   font-weight: bold;
 }
 .jump-to-links a:hover {
-  color: #B9819F;
+  color: #b9819f;
 }
 .laptop-image {
   font-size: 222px;
@@ -215,6 +242,9 @@ ul {
   width: 500px;
   height: 250px;
   border: #eae4d1 solid 10px;
+}
+.project-content {
+  width: 800px;
 }
 .project-section {
   width: 75%;
@@ -259,6 +289,9 @@ ul {
   border-radius: 50%;
   transition: all 150ms ease-in-out;
 }
+.ux-project-content {
+  width: 90%;
+}
 .work-header {
   font-size: 32px;
 }
@@ -268,5 +301,5 @@ ul {
 }
 .work-projects {
   margin: 0 auto;
-  width: 90%;
+  width: 95%;
 }
