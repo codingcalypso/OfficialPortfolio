@@ -107,6 +107,9 @@ section {
   text-decoration: none;
   font-weight: bold;
 }
+.about-links:hover {
+  color: #7952b2;
+}
 .btn-contact {
   background-color: #846ea5;
   color: #fffffe;
