@@ -191,6 +191,9 @@ section {
   color: #7952b2;
   margin-right: 15px;
 }
+.fa-brands {
+  font-size: 30px;
+}
 .fa-css3-alt {
   color: rgb(0, 149, 255);
   margin-right: 15px;
@@ -198,7 +201,6 @@ section {
 .fa-html5 {
   color: #de5404;
   margin-right: 15px;
-  margin-left: 10px;
 }
 .fa-square-js {
   color: #ecd501;
@@ -311,4 +313,47 @@ a:active {
 .work-projects {
   margin: 0 auto;
   width: 95%;
+}
+@media (max-width: 997px) {
+  h1 {
+    font-size: 44px;
+    line-height: 1.5;
+  }
+  h2 {
+    font-size: 15px;
+    line-height: 1.5;
+  }
+  .col-4 {
+    width: 100%;
+    text-align: center;
+  }
+  .column-1-aboutme {
+    margin: 0 auto;
+    width: 90%;
+  }
+  .column-2-aboutme {
+    margin: 0 auto;
+    width: 90%;
+  }
+  .column-2-index {
+    margin: 0 auto;
+    width: 90%;
+  }
+
+  .main-content {
+    padding: 100px;
+    margin: 0;
+    text-align: center;
+  }
+  .project-desciption {
+    padding: 0;
+  }
+  .work-jump-links {
+    width: 100%;
+  }
+}
+@media (max-width: 576px) {
+  .column-1-index {
+    display: none;
+  }
 }
