@@ -50,27 +50,27 @@ footer .social-links a:hover {
   background-color: var(--secondary-color);
   color: var(--main-color);
 }
-nav {
+.navbar {
   background-color: var(--main-color);
   padding-right: 100px;
 }
-nav ul {
+.navbar ul {
   padding: 0;
   margin: 0;
 }
-nav li {
+.navbar li {
   display: inline;
   list-style: none;
   line-height: 42px;
   margin-left: 15px;
 }
-nav a {
+.navbar a {
   text-decoration: none;
   color: #e4e4e4;
   transition: all 100ms ease-in-out;
 }
-nav a:hover,
-nav li.active a {
+.navbar a:hover,
+.navbar li.active a {
   color: var(--secondary-color);
   text-decoration: underline;
 }
@@ -292,11 +292,9 @@ a:active {
 }
 .social-icon {
   margin: 0 0 0 30px;
-  color: #fffffe;
-  background-color: var(--main-color);
+  color: #7952b2;
   padding: 5px 8px;
-  font-size: 18px;
-  border-radius: 50%;
+  font-size: 20px;
   transition: all 150ms ease-in-out;
 }
 .ux-project-section {
@@ -314,14 +312,17 @@ a:active {
   margin: 0 auto;
   width: 95%;
 }
+
 @media (max-width: 997px) {
   h1 {
     font-size: 44px;
     line-height: 1.5;
+    text-align: center;
   }
   h2 {
     font-size: 15px;
     line-height: 1.5;
+    text-align: center;
   }
   .col-4 {
     width: 100%;
@@ -339,10 +340,12 @@ a:active {
     margin: 0 auto;
     width: 90%;
   }
-
+  .description-title {
+    text-align: center;
+  }
   .main-content {
     padding: 100px;
-    margin: 0;
+    margin: 0 auto;
     text-align: center;
   }
   .project-desciption {
