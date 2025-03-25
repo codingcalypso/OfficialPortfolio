@@ -123,6 +123,19 @@ section {
 .btn-contact:hover {
   background-color: var(--secondary-color) !important;
 }
+.btn-cp-links {
+  background-color: var(--main-color);
+  color: #fffffe;
+  font-size: 14px;
+  line-height: 27px;
+  padding: 5px 10px;
+  border-radius: 1px;
+  width: 80%;
+  margin-left: 10px;
+}
+.btn-cp-links:hover {
+  background-color: #b9819f !important;
+}
 .btn-work-links {
   background-color: var(--main-color);
   color: #fffffe;
@@ -156,6 +169,9 @@ section {
 }
 .column-2-aboutme {
   width: 30%;
+}
+.completed-creative-project {
+  text-align: center;
 }
 .contact-box {
   background-color: #d5cfde;
@@ -297,6 +313,10 @@ a:active {
   font-size: 20px;
   transition: all 150ms ease-in-out;
 }
+.strategy-list {
+  text-align: left;
+  list-style-type: circle;
+}
 .ux-project-section {
   margin: 0 auto;
   width: 50%;
@@ -348,7 +368,7 @@ a:active {
     margin: 0 auto;
     text-align: center;
   }
-  .project-desciption {
+  .project-description {
     padding: 0;
   }
   .work-jump-links {
